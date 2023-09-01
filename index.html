@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Playlist Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Top 10 most viewed Songs on Youtube</h1>
+            <div class="songitemcontainer">
+                <div class="songitems">
+                    <img src="covers\1.png" alt="1">
+                    <span><b> Despacito ft. Daddy Yankee</b></span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="0" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img src="covers\2.png" alt="2">
+                    <span><b> Ed Sheeran – Shape of You </b></span>
+                    <span class="songlistplay"><span class="timestamp">04:24<i id="1" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img src="covers\3.png" alt="3">
+                    <span><b> See You Again ft. Charlie Puth</b></span>
+                    <span class="songlistplay"><span class="timestamp">03:58<i id ="2" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img src="covers\4.png" alt="4">
+                    <span><b> Uptown Funk ft. Bruno Mars</b></span>
+                    <span class="songlistplay"><span class="timestamp">04:31<i id ="3" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img src="covers\5.png" alt="5">
+                    <span><b> Gangnam Style</b></span>
+                    <span class="songlistplay"><span class="timestamp">04:13<i id ="4" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img src="covers\6.jpg" alt="6">
+                    <span><b> Dame Tu Cosita feat. Cutty Ranks </b></span>
+                    <span class="songlistplay"><span class="timestamp">02:33<i id ="5" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img src="covers\7.jpg" alt="7">
+                    <span><b>Maroon 5 – Sugar </b></span>
+                    <span class="songlistplay"><span class="timestamp">05:02<i id ="6" class="far songitemplay fa-play-circle"></i> </i></span></span>
+                </div>
+                <div class="songitems">
+                    <img src="covers\8.png" alt="8">
+                    <span><b> Justin Bieber – Sorry</b></span>
+                    <span class="songlistplay"><span class="timestamp">03:26<i id ="7" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img src="covers\9.png" alt="9">
+                    <span><b> Katy Perry – Roar</b></span>
+                    <span class="songlistplay"><span class="timestamp">04:30<i id ="8" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img src="covers\10.png" alt="10">
+                    <span><b> OneRepublic – Counting Stars</b></span>
+                    <span class="songlistplay"><span class="timestamp">04:44<i id ="9" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id = "previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+            <i class="fas fa-3x fa-step-forward" id = "forward"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="mastersongname">Despacito ft. Daddy Yankee</span>
+        </div>
+    </div>
+    <script src="http://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
